@@ -1,0 +1,40 @@
+{
+  "private": true,
+  "name": "mittagstisch",
+  "version": "0.1.0",
+  "description": "What's for lunch, today?",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "prettier --check . ",
+    "format": "prettier --write . "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/janraasch/mittagstisch.git"
+  },
+  "keywords": [
+    "lunch",
+    "mittagstisch",
+    "scrape"
+  ],
+  "author": {
+    "name": "Jan Raasch",
+    "email": "jan@janraasch.com",
+    "url": "https://www.janraasch.com"
+  },
+  "license": "CC-BY-NC-4.0",
+  "bugs": {
+    "url": "https://github.com/janraasch/mittagstisch/issues"
+  },
+  "homepage": "https://github.com/janraasch/mittagstisch#readme",
+  "dependencies": {
+    "date-fns": "^2.16.1",
+    "lodash": "^4.17.20",
+    "node-fetch": "^2.6.1",
+    "pdf2json": "^1.2.0"
+  },
+  "devDependencies": {
+    "prettier": "^2.1.2"
+  }
+}
