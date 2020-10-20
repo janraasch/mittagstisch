@@ -4,6 +4,8 @@
 
 > What's for lunch today?
 
+*Nota Bene:* This repo represents an idea of mine, which is currently in a *prototype* phase. Check out the [big picture](/#big-picture-vision-) description down below to get an understanding of what this is about.
+
 ## Screenshot
 
 ![screenshot][screenshot]
