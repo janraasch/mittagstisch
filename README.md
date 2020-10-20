@@ -1,4 +1,4 @@
-[![Test](https://github.com/janraasch/mittagstisch/workflows/CI/badge.svg?branch=master&event=push)](https://github.com/janraasch/mittagstisch/actions?query=workflow%3ADAILY) [![Daily Run](https://github.com/janraasch/mittagstisch/workflows/DAILY/badge.svg?branch=master)](https://github.com/janraasch/mittagstisch/actions?query=workflow%3ADAILY) [![Pay me][paypal-svg]][paypal-dot-me] [![Sponsor me][github-sponsors-svg]][github-sponsors]
+[![Test](https://github.com/janraasch/mittagstisch/workflows/CI/badge.svg?branch=master&event=push)](https://github.com/janraasch/mittagstisch/actions?query=workflow%3ACI) [![Daily Run](https://github.com/janraasch/mittagstisch/workflows/DAILY/badge.svg?branch=master)](https://github.com/janraasch/mittagstisch/actions?query=workflow%3ADAILY) [![Pay me][paypal-svg]][paypal-dot-me] [![Sponsor me][github-sponsors-svg]][github-sponsors]
 
 # mittagstisch 🍴
 
