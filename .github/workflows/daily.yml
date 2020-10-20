@@ -1,0 +1,29 @@
+name: DAILY
+
+on:
+  schedule:
+    # * is a special character in YAML so you have to quote this string
+    # see https://crontab.guru/
+    # and https://docs.github.com/en/free-pro-team@latest/actions/reference/events-that-trigger-workflows#scheduled-events
+    - cron: "0 6,8,10,12 * * *"
+  workflow_dispatch: {}
+
+jobs:
+  build:
+    runs-on: ubuntu-18.04
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - name: Read node-version from .nvmrc
+        run: echo ::set-output name=NVMRC::$(cat .nvmrc)
+        id: nvm
+
+      - name: Install Node.js, NPM and Yarn
+        uses: actions/setup-node@v2.1.2
+        with:
+          node-version: "${{ steps.nvm.outputs.NVMRC }}" # see previous run-statement
+
+      - run: npm install
+      - run: npm start
