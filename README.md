@@ -4,7 +4,7 @@
 
 > What's for lunch today?
 
-_Nota Bene:_ This repo represents an idea of mine, which is currently in a _prototype_ phase. Check out the [big picture](/#big-picture-vision-) description down below to get an understanding of what this is about.
+_Nota Bene:_ This repo represents an idea of mine, which is currently in a _prototype_ phase. Check out the [big picture](https://github.com/janraasch/mittagstisch#big-picture-vision-) description down below to get an understanding of what this is about.
 
 ## Screenshot
 
