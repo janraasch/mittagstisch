@@ -1,4 +1,5 @@
 ![Test](https://github.com/janraasch/mittagstisch/workflows/CI/badge.svg?branch=master&event=push) [![Pay me][paypal-svg]][paypal-dot-me] [![Sponsor me][github-sponsors-svg]][github-sponsors]
+
 # mittagstisch 🍴
 
 > What's for lunch today?
@@ -17,7 +18,7 @@ We may then use these scripts to provide a `»What's for lunch«`-website, where
 
 Another approach could be to run the scrape scripts locally as a `Electron`-app or something similar.
 
-*Or* we can go `100%`-nerd 🤓, and people will fork this repo and have a `GitHub-Action` set up which does the scraping and then renders the daily results to a Github Page.
+_Or_ we can go `100%`-nerd 🤓, and people will fork this repo and have a `GitHub-Action` set up which does the scraping and then renders the daily results to a Github Page.
 
 You get the idea 😋. It's early days as always.
 
@@ -33,7 +34,7 @@ First, `git clone` this repository. Then, run `npm install`.
 
 ## Usage
 
-`npm start` will render *what's for lunch today* to the console.
+`npm start` will render _what's for lunch today_ to the console.
 
 For nicer formatting use [Glow][glow] via
 
