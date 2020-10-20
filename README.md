@@ -1,4 +1,4 @@
-[![Pay me][paypal-svg]][paypal-dot-me] [![Sponsor me][github-sponsors-svg]][github-sponsors]
+![Test](https://github.com/janraasch/mittagstisch/workflows/CI/badge.svg?branch=master&event=push) [![Pay me][paypal-svg]][paypal-dot-me] [![Sponsor me][github-sponsors-svg]][github-sponsors]
 # mittagstisch 🍴
 
 > What's for lunch today?
